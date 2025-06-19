@@ -11,7 +11,7 @@ html{
 .js-output-row,.input-wrapper{
 
     display: grid;
-    grid-template-columns: 30vw 30vw 100px;
+    grid-template-columns: 30vw 30vw 1fr;
     column-gap: 10px;
     justify-content: center;
 }
@@ -34,7 +34,7 @@ html{
 
 button{
     height: 40px;
-    width: 100px;
+    width: 80%;
     border: none;
     cursor: pointer;
     border-radius: 10px;
